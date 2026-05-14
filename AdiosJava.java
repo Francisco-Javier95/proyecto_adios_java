@@ -33,6 +33,14 @@ public class AdiosJava {
         System.out.println("El resultado de la suma es:"+ suma);
         System.out.println("El resultado de la resta es:"+ ResultadoResta());
 
+        // Declarar objeto persona
+        Persona persona = new Persona("Francisco Javier Sánchez Islas", 18, "247-124-2745");
+
+        persona.setGenero('M');
+        persona.setCorreo_electronico("javsani95@gmail.com");
+
+        System.out.println("\n"+persona.toString());
+
         scanner.close();
     }
     
